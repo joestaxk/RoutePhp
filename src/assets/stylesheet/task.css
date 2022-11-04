@@ -1,0 +1,100 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    height: 40rem;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.formBody {
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 2px;
+    padding: 10px;
+    width: 450px;
+    min-height: 300px;
+}
+
+form {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+form * {
+    width: 100%;
+}
+
+.form-ctr {
+    padding: .5rem;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 7px;
+    margin: .7rem 0;
+}
+
+.form-ctr input {
+    background: transparent;
+    appearance: none;
+    border: none;
+    outline: none;
+    color: #fff ;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.form-ctr:focus-within {
+    border: 1px solid rgb(203, 215, 219);
+}
+
+.btn_submit {
+    margin-top: calc(300px / 10);
+    padding: 7px;
+    border: none;
+    appearance: none;
+    border-radius: 7px;
+    background: rgb(0, 133, 185);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_submit:hover {
+    background: rgb(30, 122, 158);
+}
+
+.label {
+    margin: 0;
+    font-size: .9rem;
+    color: rgb(104, 104, 104);
+    margin-top: .3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.options {
+    width: 100%;
+}
+.options * {
+    text-align: right;
+}
+
+.options *:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 133, 185);
+}
+
+
+/* LOst page */
+._404 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: rgba(172, 172, 172, 0.521);
+}
